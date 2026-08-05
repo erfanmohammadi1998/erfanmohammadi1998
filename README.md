@@ -161,33 +161,6 @@ I enjoy solving real-world problems, improving systems, and continuously learnin
 # 📌 Featured Projects
 
 
-
-## 🌐 Personal Portfolio
-
-
-A modern and responsive developer portfolio website created to showcase my skills, experience and projects.
-
-
-🌍 Live Demo:
-
-https://erfanmohammadi.ir
-
-
-Technologies:
-
-`React` `JavaScript` `HTML` `CSS`
-
-
-Repository:
-
-https://github.com/Erfan-Mohammadi77/portfolio
-
-
-
----
-
-
-
 ## 🎫 Ticket Management System
 
 
