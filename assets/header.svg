@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Erfan Mohammadi — Python Backend Developer · Database Specialist">
+  <!-- Self-hosted header: no external service, so it loads everywhere (incl. networks where vercel.app is blocked). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0b1e"/>
+      <stop offset="0.55" stop-color="#1b1442"/>
+      <stop offset="1" stop-color="#2a1650"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4d0ff"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#667eea" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a75aff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a75aff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <style>
+      .float-a { animation: fa 14s ease-in-out infinite; }
+      .float-b { animation: fb 17s ease-in-out infinite; }
+      .tw { animation: tw 3.6s ease-in-out infinite; }
+      .rise { animation: rise .9s cubic-bezier(.22,1,.36,1) both; }
+      .rise2 { animation: rise .9s cubic-bezier(.22,1,.36,1) .15s both; }
+      .rise3 { animation: rise .9s cubic-bezier(.22,1,.36,1) .3s both; }
+      @keyframes fa { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,-18px); } }
+      @keyframes fb { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-46px,16px); } }
+      @keyframes tw { 0%,100% { opacity: .1; } 50% { opacity: .9; } }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="250" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="250" rx="18" fill="url(#dots)"/>
+  <g class="float-a"><circle cx="980" cy="40" r="190" fill="url(#orbA)"/></g>
+  <g class="float-b"><circle cx="150" cy="230" r="200" fill="url(#orbB)"/></g>
+
+  <circle class="tw" cx="210" cy="52" r="1.6" fill="#fff"/>
+  <circle class="tw" style="animation-delay:1.2s" cx="1060" cy="190" r="1.4" fill="#fff"/>
+  <circle class="tw" style="animation-delay:2.1s" cx="760" cy="38" r="1.5" fill="#fff"/>
+  <circle class="tw" style="animation-delay:.6s" cx="420" cy="208" r="1.3" fill="#fff"/>
+  <circle class="tw" style="animation-delay:1.8s" cx="1130" cy="70" r="1.2" fill="#fff"/>
+
+  <rect x="0" y="246" width="1200" height="4" fill="url(#brand)"/>
+
+  <g text-anchor="middle">
+    <text class="rise" x="600" y="112" font-size="58" font-weight="800" fill="url(#title)" letter-spacing="-1">Erfan Mohammadi</text>
+    <text class="rise2" x="600" y="156" font-size="22" font-weight="600" fill="#c4d0ff">Python Backend Developer (Django)  ·  Database Specialist (MS SQL Server)</text>
+    <text class="rise3" x="600" y="194" font-size="16" fill="#ffffff" fill-opacity="0.6">4+ years building enterprise systems end to end  ·  Tehran, Iran</text>
+  </g>
+</svg>
