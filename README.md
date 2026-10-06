@@ -34,17 +34,16 @@ I'm a backend developer with **4+ years of professional experience** building in
 
 ## Featured work
 
-> Most of my production work is for my employer or for clients, so the repositories are **private**. All screenshots below use **sample data**. Code walkthroughs and live demos are available on request.
+> Much of my production work is for my employer or for clients, so many repositories are **private**. All screenshots use **sample data**. Code walkthroughs and live demos are available on request. Full portfolio: [erfanmohammadi.ir](https://erfanmohammadi.ir/en/).
 
-### 📋 RezumeBan: recruiting & applicant tracking system (ATS)
+### 📋 RezumeBan: recruiting & applicant tracking system (ATS) · [repo](https://github.com/erfanmohammadi1998/rezumeban)
 
 A complete hiring platform, in use at Alvan:
 - job requisitions with manager approval → job postings → a drag-and-drop **Kanban pipeline**
 - interviews with **weighted scorecards** and calendar (.ics) invites → **offers**
 - funnel and source-effectiveness **reports**
 - résumé import with duplicate detection and merging, side-by-side candidate comparison
-- candidate sourcing from the GitHub, Stack Overflow and dev.to APIs
-- a `Ctrl+K` command palette
+- candidate sourcing from the GitHub, Stack Overflow and dev.to APIs, and a `Ctrl+K` command palette
 
 `Django 6` `DRF` `JWT` `React 19` `Vite` `Tailwind CSS 4` `Framer Motion` `Recharts` · 31 automated tests
 
@@ -52,6 +51,32 @@ A complete hiring platform, in use at Alvan:
 <tr>
 <td width="50%"><img src="assets/rezumeban-dashboard.png" alt="RezumeBan: dashboard" /></td>
 <td width="50%"><img src="assets/rezumeban-pipeline.png" alt="RezumeBan: hiring pipeline" /></td>
+</tr>
+</table>
+
+### 🏷️ Amvalyar: asset & custody management · [repo](https://github.com/erfanmohammadi1998/amvalyar)
+
+A configurable product for the physical control of an organization's assets: custodians and hand-over documents, an **immutable movement ledger**, **QR-code labels** with a public lookup page, **mobile stock-taking** with automatic discrepancy reports, maintenance work orders, **Excel import**, custom fields and multi-tenant SaaS mode. Installable as a **PWA**.
+
+`Django 5.2 LTS` `DRF` `React` `TypeScript` `Ant Design` `PostgreSQL` `PWA`
+
+<table>
+<tr>
+<td width="50%"><img src="assets/amvalyar-dashboard.webp" alt="Amvalyar: dashboard" /></td>
+<td width="50%"><img src="assets/amvalyar-asset360.webp" alt="Amvalyar: asset 360° view with QR code" /></td>
+</tr>
+</table>
+
+### 🎨 Rangnama: AI paint visualizer · [repo](https://github.com/erfanmohammadi1998/rangnama)
+
+The customer uploads a photo of a room or building; **Mask2Former semantic segmentation** and **SAM** find the walls, and a Lab-space color engine repaints them from the catalog while keeping the original light, shadow and texture. Includes a smart brush, before/after slider, paint calculator, lead form and admin dashboard. All models run **locally**, with no per-image API cost.
+
+`Python` `FastAPI` `PyTorch` `Mask2Former` `SAM` `OpenCV` `JavaScript`
+
+<table>
+<tr>
+<td width="50%"><img src="assets/rangnama-before-after.webp" alt="Rangnama: before/after" /></td>
+<td width="50%"><img src="assets/rangnama-kitchen.webp" alt="Rangnama: wall and ceiling recolored" /></td>
 </tr>
 </table>
 
@@ -68,27 +93,14 @@ A cloud platform that language schools subscribe to (monthly or yearly, with a f
 </tr>
 </table>
 
-### 🏷️ Houshiva Asset: asset & custodianship management *(Houshiva)*
-
-A configurable product for controlling an organization's physical assets. It tracks custodians and handovers, movements between locations, **QR-code labels** with a public lookup page, inventory counts with discrepancy reports, maintenance, an **Excel import** and custom fields. Installable as a **PWA**.
-
-`Django 5.2 LTS` `DRF` `React` `PostgreSQL` `PWA`
-
-<table>
-<tr>
-<td width="50%"><img src="assets/houshiva-asset-dashboard.png" alt="Houshiva Asset: dashboard" /></td>
-<td width="50%"><img src="assets/houshiva-asset-detail.png" alt="Houshiva Asset: asset 360° view with QR code" /></td>
-</tr>
-</table>
-
-### 💼 Karnama: job search & résumé builder PWA *(Houshiva)*
+### 💼 Karnama: job search & résumé builder PWA *(Houshiva)* · [repo](https://github.com/erfanmohammadi1998/karnama)
 
 A mobile-first app for job seekers:
-- **searches several job sites at once**, merging results and removing duplicates
-- a **Persian résumé builder** with live preview, templates and PDF export
-- a board for tracking applications, plus job alerts and personalized suggestions
+- **searches Iranian and international job sources at once**, merging results and removing duplicates
+- a **résumé builder** (fa / en / de) with live preview, templates, photo and PDF export
+- an application tracker, job alerts, personalized suggestions and job-ad translation
 
-`React` `PWA` `Web scraping`
+`Django REST Framework` `React` `Vite` `PWA`
 
 <table>
 <tr>
@@ -97,45 +109,55 @@ A mobile-first app for job seekers:
 </tr>
 </table>
 
-### 🧭 Software Knowledge Center: internal IT operations platform
+### 📡 Market Radar: competitor price intelligence
 
-The IT team's daily workspace:
-- documentation, tasks and issues, a phone directory and live user presence
-- **access control and auditing across three SQL Server instances**: who can see what, copying access between users, segregation-of-duties checks
-- a SQL query console and a database audit
-- the **single sign-on hub** for the other internal apps
+Automatically collects competitor prices from online stores, matches equivalent products across brands and shows the brand's market positioning, with an *evidence chain* that traces every dashboard number back to its raw source record.
 
-`Django` `DRF` `React` `MUI` `SQL Server` `Docker` `nginx`
+`Django` `DRF` `Celery` `Redis` `PostgreSQL` `React`
 
-### 📊 Management Dashboard & Performance Analytics
+<p align="center"><img src="assets/market-radar.webp" width="80%" alt="Market Radar: management dashboard" /></p>
 
-One dashboard over the ERP data for management, with modules for **HR** (headcount, attrition, age pyramid, accidents, contracts), **accounting** (ledger, trial balance, balance sheet, income statement), **assets**, **inventory**, **cash and cheques**, **maintenance** and **market pricing**. Domain chatbots for HR and quality questions are built in, and access is controlled per module.
+### 🏢 Enterprise systems
 
-`React` `Ant Design` `Recharts` `Python` `SQL Server`
+| | |
+|---|---|
+| <img src="assets/management-dashboard.webp" alt="Management dashboard" /><br>**📊 Management Dashboard & Performance Analytics**<br>One dashboard over the ERP data for HR, accounting, assets, inventory, cash, maintenance and market pricing, with HR and quality chatbots and per-module access.<br>`React` `Ant Design` `Recharts` `Python` `SQL Server` | <img src="assets/document-management.webp" alt="Document management" /><br>**🗃️ Smart Document Management**<br>Company-wide document archive with OCR text extraction from images and PDFs, so documents are searchable by their content.<br>`Django` `React` `OCR` `SQL Server` |
+| <img src="assets/ticket-system.webp" alt="Ticket management system" /><br>**🎫 Support Ticket System** · [repo](https://github.com/erfanmohammadi1998/ticket-management-system)<br>Internal support desk with automatic numbering, status workflow and role-based access.<br>`Django REST Framework` `JWT` `React` `SQL Server` | <img src="assets/school-management.webp" alt="School management" /><br>**🏫 School Management Software**<br>Attendance, grades, staff and day-to-day operations for a technical school.<br>`Django` `React` |
 
-### 🎨 Alvan Color Visualizer: AI wall-color preview
+**Also built:** 🧭 **Software Knowledge Center**, the IT team's workspace (docs, tasks, phone directory, access control and auditing across three SQL Server instances, SQL console, single sign-on hub for internal apps) · 🛠️ **PM Factory**, a CMMS rewrite of the ERP's VB.NET/WinForms maintenance module (Django, React, TypeScript, PostgreSQL) · 💰 **Price Inquiry & Asset Valuation**.
 
-A sales tool. The customer uploads a photo of a room or building, and the app detects the walls with **Mask2Former semantic segmentation**. It then repaints them in colors from the company catalogue, keeping the original light, shadow and texture (Lab color space, guided-filter edges, linear-light compositing). All models run **locally**, so there is no per-use API cost.
+### 🏭 Industrial production-line tools
 
-`Python` `FastAPI` `PyTorch` `Transformers` `OpenCV` `JavaScript`
+| | |
+|---|---|
+| <img src="assets/modem-line-tools.webp" alt="Modem production line tools" /><br>**Modem production-line automation**<br>Python tools that update firmware and run quality tests on modems across multiple stations of an industrial line. | <img src="assets/label-printing.webp" alt="Master carton label printing" /><br>**Master-carton label printing**<br>Fast, accurate label printing for master cartons on the production line, with barcodes and serial ranges. |
 
-### 🛠️ More systems
+### 🌐 Client websites & apps *(Houshiva)*
 
-| Project | What it is | Stack |
+| | | |
 |---|---|---|
-| **PM Factory** | Maintenance-management (CMMS) rewrite of the ERP's VB.NET/WinForms module as a web platform, with ERP user sync and server-side PDF reports | Django · DRF · React · TypeScript · PostgreSQL |
-| **Market Intelligence** | Collects, normalizes and matches competitor product and price data, with an *evidence chain* that traces every dashboard number back to its raw source | Django · Celery · Redis · PostgreSQL · React |
-| **Price Inquiry & Asset Valuation** | Automated price inquiries and asset valuation | Django · REST API · React · SQL Server |
-| **Document Management** | Company-wide document repository with search and workflow features | Django · React · SQL Server |
-| **Client work** *(Houshiva)* | Corporate website relaunch (WordPress → React + Django); café ordering and table-reservation platform with SMS one-time-password login; digital menu with admin panel and online ordering | React · Django |
+| <img src="assets/rose-cafe.webp" alt="Rose Cafe" /><br>**Rose Café**: online ordering and table reservation with SMS login | <img src="assets/digital-menu.webp" alt="Digital menu" /><br>**Digital café menu**: dynamic menu, admin panel and online orders | <img src="assets/nikiteb-website.webp" alt="Nikiteb website" /><br>**Nikiteb corporate website**: relaunch from WordPress to React + Django |
+| <img src="assets/shiva-gallery.webp" alt="Shiva Gallery" /><br>**Shiva Gallery**: women's clothing e-shop with cart, payment and admin | <img src="assets/barber-shop.webp" alt="Barber shop" /><br>**Barber shop landing page**: services, team and reviews | <img src="assets/tidaland.webp" alt="TidaLand" /><br>**TidaLand pet shop** · [repo](https://github.com/erfanmohammadi1998/tidaland-pet-shop): pure HTML/CSS multi-page site |
 
-### 🌍 Public repositories
+### 🌍 Open-source tools
+
+| | |
+|---|---|
+| <img src="assets/hodhodshare.webp" alt="HodhodShare" /><br>**[HodhodShare](https://github.com/erfanmohammadi1998/HodhodShare)**: share files between a Windows PC and a phone over local Wi-Fi by scanning a QR code. No app, no internet, no cloud; single portable `.exe`, English/Persian UI.<br>`Python` `Flask` `PyInstaller` | <img src="assets/ip-killswitch.webp" alt="IP Kill-Switch" /><br>**[ip_killswitch](https://github.com/erfanmohammadi1998/ip_killswitch)**: closes your browsers the moment your VPN or proxy drops, before your real IP can leak. Fail-safe by design.<br>`Python` `psutil` |
+
+### 📂 Public repositories
 
 | Repository | Description |
 |---|---|
-| [**portfolio**](https://github.com/erfanmohammadi1998/portfolio) | My portfolio, live at [erfanmohammadi.ir](https://erfanmohammadi.ir). It's an interactive architecture map plus an API console you can query (`GET /projects`, `whoami`). Trilingual (fa / en / de) and RTL-aware |
-| [**ticket-management-system**](https://github.com/erfanmohammadi1998/ticket-management-system) | Full-stack support-ticket system with role-based access and a dashboard, built with Django REST Framework, React and SQL Server |
-| [**ip_killswitch**](https://github.com/erfanmohammadi1998/ip_killswitch) | Small Python utility that closes chosen apps when your public IP changes, e.g. when a VPN drops. Fail-safe by design |
+| [**rezumeban**](https://github.com/erfanmohammadi1998/rezumeban) | Applicant tracking system with careers portal, Kanban pipeline, scorecards and hiring analytics |
+| [**amvalyar**](https://github.com/erfanmohammadi1998/amvalyar) | Asset & custody management with QR tagging and mobile stock-taking |
+| [**rangnama**](https://github.com/erfanmohammadi1998/rangnama) | AI paint visualizer (Mask2Former + SAM + Lab recoloring) |
+| [**karnama**](https://github.com/erfanmohammadi1998/karnama) | Job-seeker PWA: aggregated job search, résumé builder, tracker |
+| [**HodhodShare**](https://github.com/erfanmohammadi1998/HodhodShare) | Local Wi-Fi file sharing between PC and phone via QR |
+| [**ticket-management-system**](https://github.com/erfanmohammadi1998/ticket-management-system) | Support-ticket system with Django REST Framework, React and SQL Server |
+| [**ip_killswitch**](https://github.com/erfanmohammadi1998/ip_killswitch) | VPN-drop watchdog that prevents real-IP leaks |
+| [**tidaland-pet-shop**](https://github.com/erfanmohammadi1998/tidaland-pet-shop) | Responsive pet shop website in pure HTML5/CSS3 |
+| [**portfolio**](https://github.com/erfanmohammadi1998/portfolio) | My portfolio, live at [erfanmohammadi.ir](https://erfanmohammadi.ir): an interactive architecture map plus an API console you can query. Trilingual (fa / en / de) |
 
 ---
 
